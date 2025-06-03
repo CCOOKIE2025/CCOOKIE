@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FDF6ED;
+    color: #5C2C1D;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+}
+
+.logo {
+    height: 170px;
+}
+.cookie-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 0.8em;
+    max-height: 200px;
+}
+.slogan {
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+.subtitle-list {
+    list-style: none; /* retire les puces classiques */
+    padding-left: 1.5em; /* décalage à gauche */
+    margin: 0;
+}
+
+.subtitle-list li {
+    margin-bottom: 0.3em;
+    text-indent: -1.2em; /* aligne les emojis entre eux */
+    padding-left: 1.2em;
+}
+
+
+.cookies-section {
+    padding: 2em;
+    background-color: #FDF6ED;
+}
+
+.cookie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 👈 Forcer 4 colonnes */
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.cookie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+
+.cookie-card h3 {
+    margin-top: 0;
+    color: #5C2C1D;
+}
+
+.cookie-card span {
+    font-weight: bold;
+    display: block;
+    margin-top: 1em;
+}
+
+.monthly-cookie {
+    padding: 2em;
+    background-color: #EEDDC7;
+    text-align: center;
+}
+
+.contact {
+    padding: 2em;
+    text-align: center;
+    background-color: #FDF6ED;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #EEDDC7;
+    font-size: 0.9em;
+}
